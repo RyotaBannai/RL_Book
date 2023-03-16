@@ -190,3 +190,4 @@ ja/notebooks/**/.ipynb_checkpoints/
 **/.DS_Store
 remove_DS_store
 .ipynb_checkpoints
+.DS_Store

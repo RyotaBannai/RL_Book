@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rl-book"
+version = "0.1.0"
+description = ""
+authors = ["RyotaBannai <ryotala0528@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rl_book"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+pandas = "^1.5.1"
+seaborn = "^0.12.1"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+mypy = "^0.982"
+isort = "^5.10.1"
+tensorflow = "^2.11.0"
+keras = "^2.11.0"
+ipdb = "^0.13.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
